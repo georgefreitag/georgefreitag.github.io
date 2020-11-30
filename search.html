@@ -10,7 +10,7 @@ $(document).ready(function(){
 
     $('#button').click(function(e) {  
         var inputvalue = $("#input").val();
-        window.location.replace("https://www.google.com/search?q=/"+inputvalue);
+        window.location.replace("https://www.google.com/search?q="+inputvalue);
 
     });
 });
@@ -19,6 +19,13 @@ $(document).ready(function(){
 <body>
 
        <input type="text" value="11" id="input"> 
-       <button type="button" id="button">Let's go!</button>
-</body>
+
+
+<h2>Try this one</h2>
+<p>
+	<form action="https://www.google.com/search?q=">
+		<input type="text" name="Search">
+		<button type="submit">Search</button>
+	</form>
+</p>
 </html>
