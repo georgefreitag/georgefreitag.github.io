@@ -4,17 +4,36 @@
     <title>Search Google without Amazon</title>
     <meta name="desciption" content="Search for anything on Google while leaving out all the greedy amazon.com results" >
 	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<meta property="og:title" content="Search Google with no Amazon">
+	<meta property="og:site_name" content="More like Amagone">
+	<meta property="og:url" content="https://georgefreitag.github.io/amagone/">
+	<meta property="og:description" content="Search for stuff while avoiding amazon.com links">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="https://i.imgur.com/kL1kIyQ.jpg">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="georgefreitag">
+	<meta name="twitter:title" content="More like Amagone">
+	<meta name="twitter:description" content="Search for stuff while avoiding amazon.com links">
+	<meta name="twitter:image" content="https://i.imgur.com/kL1kIyQ.jpg">
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-RYZ1F2HSWF"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-RYZ1F2HSWF');
+	</script>
 </head>
 
-<body style="font-family: 'Open Sans', sans-serif;">
-<div class="middle">
-	<div class="Google_logo">
-		<h2>More like Ama<em>gone</em></h2>
-	</div>
-	<p>This form removes Amazon from search results so you can buy from someone else.</p>
-		<div class="search_bar">
+<body>
+<div class="wrap">
+	<h2 style="font-size:44px;font-family:'Roboto', sans-serif;">More like Ama<em>gone</em></h2>
+	<p>This page simply removes Amazon from search results so you can buy from someone else.</p>
+		
 			<script>
 			    function process()
 			    {
@@ -23,25 +42,25 @@
 				return false;
 			    }
 			</script>
-			<form onSubmit="return process();">
-				<input class ="sbar" type="text" name="url" id="url" autofocus="autofocus"><br />
-				<div class="s_buttonS">
-				<input class="search_button" type="submit" value="Google Search">
-				</div>
+			<form class="search" onSubmit="return process();">
+				<input type="text" class ="searchTerm" name="url" id="url" placeholder="What are you searching for?">
+				<button type="submit" class="searchButton">
+				<i class="fa fa-search"></i>
+     			</button>
 			</form>
-		</div>
-		<br /></br />
-	<strong>Amazon has enough money.</strong>
+				<br /></br />
 	<ul>
 		<li><a href="https://www.reuters.com/article/us-amazon-com-results/amazon-posts-biggest-profit-ever-at-height-of-pandemic-in-u-s-idUSKCN24V3HL" target="_blank">Amazon posts biggest profit ever at height of pandemic in U.S.</a></li>
 		<li><a href="https://www.businessinsider.com/jeff-bezos-on-track-to-become-trillionaire-by-2026-2020-5" target="_blank">Jeff Bezos is on track to become a trillionaire by 2026</a></li>
 		<li><a href="https://www.wired.com/story/amazon-workers-pandemic-risks-own-words/" target="_blank">9 Amazon Workers Describe the Daily Risks They Face in the Pandemic</a></li>
 		<li><a href="https://www.cnbc.com/2020/10/24/how-amazon-prevents-unions-by-surveilling-employee-activism.html" target="_blank">How Amazon keeps a close eye on employee activism to head off unions</a></li>
 	</ul>
+
 </div>
 <div class="bottom_navbar">
 	<div class="advertising">
 	<a href="https://twitter.com/georgefreitag" target="_blank">@georgefreitag</a>
 	</div>
 </div>
+</body>
 </html>
