@@ -51,6 +51,10 @@ h2{
   transform: translate(-50%, -50%);
 }
 
+ul {
+  color: #00B4CC;
+}
+
 a {
   color: #00B4CC;
   padding-bottom: .25em;
