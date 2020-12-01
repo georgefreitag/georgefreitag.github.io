@@ -13,4 +13,19 @@
 		<button type="submit">Search</button>
 	</form>
 </p>
+
+<h2>Or this one</h2>
+<script>
+    function process()
+    {
+        var url = "https://www.google.com/search?=" + document.getElementById("url").value;
+        location.href = url;
+        return false;
+    }
+</script>
+
+<form onSubmit="return process();">
+    Search: <input type="text" name="url" id="url">
+    <input type="submit" value="go">
+</form>
 </html>
