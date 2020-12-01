@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/regular.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&effect=shadow-multiple');
 
 body{
   background: #f2f2f2;
   font-family: 'Open Sans', sans-serif;
 }
 
+h2{
+  font-size:55px;
+  font-family:'Roboto', sans-serif;
+}
 .search {
   width: 100%;
   position: relative;
