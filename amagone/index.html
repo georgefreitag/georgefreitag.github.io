@@ -18,18 +18,19 @@
 			<script>
 			    function process()
 			    {
-				var url = "https://www.google.com/search?q=-site:amazon.com " + document.getElementById("search").value;
+				var url = "https://www.google.com/search?q=-site:amazon.com " + document.getElementById("url").value;
 				location.href = url;
 				return false;
 			    }
 			</script>
-			<form onSubmit="return process();" name="s_bar">
-				<input class ="sbar" type="text" name="search" id="url" autofocus="autofocus"><br />
+			<form onSubmit="return process();">
+				<input class ="sbar" type="text" name="url" id="url" autofocus="autofocus"><br />
 				<div class="s_buttonS">
 				<input class="search_button" type="submit" value="Google Search">
 				</div>
 			</form>
 		</div>
+		<br /></br />
 	<strong>Amazon has enough money.</strong>
 	<ul>
 		<li><a href="https://www.reuters.com/article/us-amazon-com-results/amazon-posts-biggest-profit-ever-at-height-of-pandemic-in-u-s-idUSKCN24V3HL" target="_blank">Amazon posts biggest profit ever at height of pandemic in U.S.</a></li>
