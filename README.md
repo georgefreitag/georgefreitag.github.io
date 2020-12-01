@@ -1,2 +1,2 @@
 # georgefreitag.github.io
-Public page
+Message me for suggestions!
