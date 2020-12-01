@@ -52,18 +52,17 @@ h2{
 }
 
 ul {
-  color: #00B4CC;
+  color: #505050;
 }
 
 a {
-  color: #00B4CC;
-  padding-bottom: .25em;
+  color: #505050;
   text-decoration: none;
 }
 
 a:hover {
+  color:#00B4CC;
   border-bottom: 1px solid #00B4CC;
-  padding-bottom: .25em;
   text-decoration: none;
 }
 
