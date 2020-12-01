@@ -3,61 +3,14 @@ body{
 	padding: 0px;
 	margin: 0px;
 	border:0px;
+	font-family:Open-Sans;
 }
-.top_navbar{
-	position: absolute;
-	display: inline-block;
-	right:20px;
-}
-.Gm{
-	height: 20px;
-	width: 40px;
-	display: inline;
-	margin-right: 10px;
-}
-.Im{
-	height: 20px;
-	width: 40px;
-	display: inline;
-	margin-right: 10px;
-}
-.Ap{
-	display: inline;
-	position: relative;
-	top: 8px;
-	margin-right: 10px;
-}
-.Gmail{
-	font-family: Arial;
-	text-decoration: none;
-	color: #737373;
-	font-size: small;
 
+.h2{
+	font-size:30pt;
+	font-weight:bold;
+}
 
-}
-.Gmail:hover{
-	text-decoration: underline;
-}
-.Images{
-	font-family: Arial;
-	text-decoration: none;
-	color: #737373;
-	font-size: small;
-
-}
-.Images:hover{
-	text-decoration: underline;
-}
-.apps{
-	float: top;
-
-}
-.Sign_In{
-	display: inline-block;
-	position: relative;
-	top: 10px;
-	margin-right: 10px;
-}
 .sin:hover{
 	cursor: default;
 }

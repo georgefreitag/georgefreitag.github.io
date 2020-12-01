@@ -5,26 +5,26 @@
 	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
 </head>
+
 <body>
 <div class="middle">
-<h2>More like Ama<em>gone</em></h2>
-<p>This form removes Amazon from search results so you can buy from someone else.
-<div class="search_bar">
-	<script>
-	    function process()
-	    {
-		var url = "https://www.google.com/search?q=-site:amazon.com " + document.getElementById("url").value;
-		location.href = url;
-		return false;
-	    }
-	</script>
-	<form onSubmit="return process();">
-		<input class ="sbar" type="text" name="url" id="url" autofocus="autofocus"><br />
-		<input class="search_button" type="submit" value="Google Search">
-	</form>
+	<h2>More like Ama<em>gone</em></h2>
+	<p>This form removes Amazon from search results so you can buy from someone else.
+		<div class="search_bar">
+			<script>
+			    function process()
+			    {
+				var url = "https://www.google.com/search?q=-site:amazon.com " + document.getElementById("url").value;
+				location.href = url;
+				return false;
+			    }
+			</script>
+			<form onSubmit="return process();">
+				<input class ="sbar" type="text" name="url" id="url" autofocus="autofocus"><br />
+				<input class="search_button" type="submit" value="Google Search">
+			</form>
 		</div>
-	<br />
-	<p><h3>Amazon has enough money.</h3></p>
+	<strong>Amazon has enough money.</strong>
 	<ul>
 		<li><a href="https://www.reuters.com/article/us-amazon-com-results/amazon-posts-biggest-profit-ever-at-height-of-pandemic-in-u-s-idUSKCN24V3HL" target="_blank">Amazon posts biggest profit ever at height of pandemic in U.S.</a></li>
 		<li><a href="https://www.businessinsider.com/jeff-bezos-on-track-to-become-trillionaire-by-2026-2020-5" target="_blank">Jeff Bezos is on track to become a trillionaire by 2026</a></li>
@@ -32,7 +32,9 @@
 		<li><a href="https://www.cnbc.com/2020/10/24/how-amazon-prevents-unions-by-surveilling-employee-activism.html" target="_blank">How Amazon keeps a close eye on employee activism to head off unions</a></li>
 	</ul>
 </div>
-<p>
+<div class="bottom_navbar">
+	<div class="advertising">
 	<a href="https://twitter.com/georgefreitag" target="_blank">@georgefreitag</a>
-</p>
+	</div>
+</div>
 </html>
