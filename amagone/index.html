@@ -4,24 +4,30 @@
     <title>Search Google without Amazon</title>
     <meta name="desciption" content="Search for anything on Google while leaving out all the greedy amazon.com results" >
 	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body style="font-family: 'Open Sans', sans-serif;">
 <div class="middle">
-	<h2>More like Ama<em>gone</em></h2>
-	<p>This form removes Amazon from search results so you can buy from someone else.
+	<div class="Google_logo">
+		<h2>More like Ama<em>gone</em></h2>
+	</div>
+	<p>This form removes Amazon from search results so you can buy from someone else.</p>
 		<div class="search_bar">
 			<script>
 			    function process()
 			    {
-				var url = "https://www.google.com/search?q=-site:amazon.com " + document.getElementById("url").value;
+				var url = "https://www.google.com/search?q=-site:amazon.com " + document.getElementById("search").value;
 				location.href = url;
 				return false;
 			    }
 			</script>
-			<form onSubmit="return process();">
-				<input class ="sbar" type="text" name="url" id="url" autofocus="autofocus"><br />
+			<form onSubmit="return process();" name="s_bar">
+				<input class ="sbar" type="text" name="search" id="url" autofocus="autofocus"><br />
+				<div class="s_buttonS">
 				<input class="search_button" type="submit" value="Google Search">
+				</div>
 			</form>
 		</div>
 	<strong>Amazon has enough money.</strong>

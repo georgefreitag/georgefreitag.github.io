@@ -1,14 +1,10 @@
-@font-face {
-		font-family: 'Source Sans Pro', sans-serif;
-		src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap')
-}
+
 
 body{
 	background-color: #fff;
 	padding: 0px;
 	margin: 0px;
 	border:0px;
-	font-family:Source Sans Pro;
 }
 
 .h2{
