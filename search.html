@@ -1,20 +1,12 @@
     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head>
-    <title>Search without the amazon</title>
-
+    <title>Search Google without Amazon</title>
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 </head>
 <body>
-<h2>Try this one</h2>
-<p>
-	<form action="https://www.google.com/search" method="get">
-		<input type="text" id="query" name="q" size="31">
-		<input type="hidden" id="no-amazon" value=" -site:amazon.com">
-		<button type="submit">Search</button>
-	</form>
-</p>
-
-<h2>Or this one</h2>
+<div style="text-align:center; font-style:Open Sans">
+<h2>More like Ama<em>gone</em></h2>
 <script>
     function process()
     {
@@ -23,9 +15,9 @@
         return false;
     }
 </script>
-
 <form onSubmit="return process();">
-    Search: <input type="text" name="url" id="url">
-    <input type="submit" value="go">
+   <input type="text" name="url" id="url">
+    <input type="submit" value="Google Search">
 </form>
+</div>
 </html>
