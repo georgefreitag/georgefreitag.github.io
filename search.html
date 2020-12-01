@@ -18,7 +18,7 @@
 <script>
     function process()
     {
-        var url = "https://www.google.com/search?=" + document.getElementById("url").value;
+        var url = "https://www.google.com/search?q=" + document.getElementById("url") + " -site:amazon.com".value;
         location.href = url;
         return false;
     }
