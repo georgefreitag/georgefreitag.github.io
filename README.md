@@ -1,2 +1,2 @@
 # georgefreitag.github.io
-Message me for suggestions!
+https://georgefreitag.github.io/amagone/
